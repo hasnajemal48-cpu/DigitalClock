@@ -1,0 +1,19 @@
+ *body{
+            background-position: center;
+            margin: 0;
+        }
+         #clock-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+         }
+         #clock{
+            font-family:monospace;
+            font-size: 5.5rem;
+            font-weight: 700;
+            text-align: center;
+            color: black;
+            width: 100%;
+            backdrop-filter: blur(5px);
+         }
